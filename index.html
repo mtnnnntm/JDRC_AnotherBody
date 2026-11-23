@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JDRC Panel 2 — Mei: Another Body</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;background:#000;font-family:sans-serif}
+#stage{position:absolute;width:1920px;height:1080px;transform-origin:0 0;overflow:hidden}
+.slide{position:absolute;top:0;left:0;width:1920px;height:1080px;display:none;overflow:hidden}
+.slide.active{display:block}
+.slide-bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.slide video{position:absolute;object-fit:contain;z-index:1}
+
+</style>
+</head>
+<body>
+<div id="stage">
+
+<section class="slide" id="slide-1">
+<img class="slide-bg" src="images/slide1.png" alt="">
+</section>
+
+<section class="slide" id="slide-2">
+<img class="slide-bg" src="images/slide2.png" alt="">
+</section>
+
+<section class="slide" id="slide-3">
+<img class="slide-bg" src="images/slide3.png" alt="">
+</section>
+
+<section class="slide" id="slide-4">
+<img class="slide-bg" src="images/slide4.png" alt="">
+</section>
+
+<section class="slide" id="slide-5">
+<img class="slide-bg" src="images/slide5.png" alt="">
+</section>
+
+<section class="slide" id="slide-6">
+<img class="slide-bg" src="images/slide6.png" alt="">
+</section>
+
+<section class="slide" id="slide-7">
+<img class="slide-bg" src="images/slide7.png" alt="">
+</section>
+
+<section class="slide" id="slide-8">
+<img class="slide-bg" src="images/slide8.png" alt="">
+</section>
+
+<section class="slide" id="slide-9">
+<img class="slide-bg" src="images/slide9.png" alt="">
+</section>
+
+<section class="slide" id="slide-10">
+<img class="slide-bg" src="images/slide10.png" alt="">
+</section>
+
+<section class="slide" id="slide-11">
+<img class="slide-bg" src="images/slide11.png" alt="">
+</section>
+
+<section class="slide" id="slide-12">
+<img class="slide-bg" src="images/slide12.png" alt="">
+</section>
+
+<section class="slide" id="slide-13">
+<img class="slide-bg" src="images/slide13.png" alt="">
+</section>
+
+<section class="slide" id="slide-14">
+<img class="slide-bg" src="images/slide14.png" alt="">
+</section>
+
+<section class="slide" id="slide-15">
+<img class="slide-bg" src="images/slide15.png" alt="">
+</section>
+
+<section class="slide" id="slide-16">
+<img class="slide-bg" src="images/slide16.png" alt="">
+</section>
+
+<section class="slide" id="slide-17">
+<img class="slide-bg" src="images/slide17.png" alt="">
+</section>
+
+<section class="slide" id="slide-18">
+<img class="slide-bg" src="images/slide18.png" alt="">
+<video style="left:48.97%;top:20.73%;width:40.95%;height:54.59%" autoplay loop muted playsinline>
+<source src="videos/p18.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-19">
+<img class="slide-bg" src="images/slide19.png" alt="">
+</section>
+
+<section class="slide" id="slide-20">
+<img class="slide-bg" src="images/slide20.png" alt="">
+</section>
+
+<section class="slide" id="slide-21">
+<img class="slide-bg" src="images/slide21.png" alt="">
+<video style="left:16.91%;top:16.63%;width:66.17%;height:73.61%" autoplay loop muted playsinline>
+<source src="videos/p21.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-22">
+<img class="slide-bg" src="images/slide22.png" alt="">
+<video style="left:16.91%;top:16.63%;width:66.17%;height:73.61%" autoplay loop muted playsinline>
+<source src="videos/p22.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-23">
+<img class="slide-bg" src="images/slide23.png" alt="">
+<video style="left:16.91%;top:16.47%;width:66.17%;height:73.61%" autoplay loop muted playsinline>
+<source src="videos/p23.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-24">
+<img class="slide-bg" src="images/slide24.png" alt="">
+<video style="left:16.91%;top:16.47%;width:66.17%;height:73.61%" autoplay loop muted playsinline>
+<source src="videos/p24.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-25">
+<img class="slide-bg" src="images/slide25.png" alt="">
+</section>
+
+<section class="slide" id="slide-26">
+<img class="slide-bg" src="images/slide26.png" alt="">
+</section>
+
+<section class="slide" id="slide-27">
+<img class="slide-bg" src="images/slide27.png" alt="">
+</section>
+
+<section class="slide" id="slide-28">
+<img class="slide-bg" src="images/slide28.png" alt="">
+</section>
+
+<section class="slide" id="slide-29">
+<img class="slide-bg" src="images/slide29.png" alt="">
+</section>
+
+<section class="slide" id="slide-30">
+<img class="slide-bg" src="images/slide30.png" alt="">
+</section>
+
+<section class="slide" id="slide-31">
+<img class="slide-bg" src="images/slide31.png" alt="">
+</section>
+
+<section class="slide" id="slide-32">
+<img class="slide-bg" src="images/slide32.png" alt="">
+</section>
+
+<section class="slide" id="slide-33">
+<img class="slide-bg" src="images/slide33.png" alt="">
+<video style="left:34.18%;top:0.02%;width:31.61%;height:100%" autoplay loop playsinline>
+<source src="videos/p33.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-34">
+<img class="slide-bg" src="images/slide34.png" alt="">
+</section>
+
+<section class="slide" id="slide-35">
+<img class="slide-bg" src="images/slide35.png" alt="">
+<video style="left:15.51%;top:15.54%;width:68.99%;height:68.96%" autoplay loop muted playsinline>
+<source src="videos/p35.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-36">
+<img class="slide-bg" src="images/slide36.png" alt="">
+</section>
+
+<section class="slide" id="slide-37">
+<img class="slide-bg" src="images/slide37.png" alt="">
+</section>
+
+<section class="slide" id="slide-38">
+<img class="slide-bg" src="images/slide38.png" alt="">
+<video style="left:34.21%;top:0.02%;width:31.61%;height:100%" autoplay loop playsinline>
+<source src="videos/p38.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-39">
+<img class="slide-bg" src="images/slide39.png" alt="">
+<video style="left:15.55%;top:15.55%;width:68.90%;height:68.90%" autoplay loop playsinline>
+<source src="videos/p39.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-40">
+<img class="slide-bg" src="images/slide40.png" alt="">
+</section>
+
+<section class="slide" id="slide-41" style="background:#000">
+<video style="left:4.97%;top:0%;width:90.07%;height:100%" autoplay loop playsinline>
+<source src="videos/p41.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-42">
+<img class="slide-bg" src="images/slide42.png" alt="">
+</section>
+
+<section class="slide" id="slide-43">
+<img class="slide-bg" src="images/slide43.png" alt="">
+</section>
+
+<section class="slide" id="slide-44">
+<img class="slide-bg" src="images/slide44.png" alt="">
+</section>
+
+<section class="slide" id="slide-45">
+<img class="slide-bg" src="images/slide45.png" alt="">
+</section>
+
+<section class="slide" id="slide-46">
+<img class="slide-bg" src="images/slide46.png" alt="">
+</section>
+
+<section class="slide" id="slide-47">
+<img class="slide-bg" src="images/slide47.png" alt="">
+</section>
+
+<section class="slide" id="slide-48">
+<img class="slide-bg" src="images/slide48.png" alt="">
+</section>
+
+<section class="slide" id="slide-49">
+<img class="slide-bg" src="images/slide49.png" alt="">
+</section>
+
+<section class="slide" id="slide-50">
+<img class="slide-bg" src="images/slide50.png" alt="">
+</section>
+
+<section class="slide" id="slide-51">
+<img class="slide-bg" src="images/slide51.png" alt="">
+</section>
+
+<section class="slide" id="slide-52" style="background:#000">
+<img class="slide-bg" src="images/slide52.png" alt="">
+<video style="left:8.75%;top:8.91%;width:82.50%;height:82.50%" autoplay loop muted playsinline>
+<source src="videos/p52.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-53">
+<img class="slide-bg" src="images/slide53.png" alt="">
+</section>
+
+<section class="slide" id="slide-54">
+<img class="slide-bg" src="images/slide54.png" alt="">
+<video style="left:0%;top:0%;width:100%;height:100%" autoplay loop playsinline>
+<source src="videos/p54.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-55">
+<img class="slide-bg" src="images/slide55.png" alt="">
+<video style="left:0%;top:0%;width:100%;height:100%" autoplay loop playsinline>
+<source src="videos/p55.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="slide" id="slide-56">
+<img class="slide-bg" src="images/slide56.png" alt="">
+</section>
+
+<section class="slide" id="slide-57">
+<img class="slide-bg" src="images/slide57.png" alt="">
+</section>
+
+<section class="slide" id="slide-58">
+<img class="slide-bg" src="images/slide58.png" alt="">
+</section>
+
+<section class="slide" id="slide-59">
+<img class="slide-bg" src="images/slide59.png" alt="">
+</section>
+
+<section class="slide" id="slide-60">
+<img class="slide-bg" src="images/slide60.png" alt="">
+</section>
+
+<section class="slide" id="slide-61">
+<img class="slide-bg" src="images/slide61.png" alt="">
+</section>
+
+</div><!-- /stage -->
+
+
+<script>
+(function(){
+  var slides = document.querySelectorAll('.slide');
+  var total = slides.length;
+  var current = 0;
+
+  function showSlide(idx) {
+    if (idx < 0 || idx >= total) return;
+    // Pause & rewind videos on old slide
+    var oldVideos = slides[current].querySelectorAll('video');
+    oldVideos.forEach(function(v) {
+      v.pause();
+      v.currentTime = 0;
+    });
+    slides[current].classList.remove('active');
+    current = idx;
+    slides[current].classList.add('active');
+    // Play videos on new slide
+    var newVideos = slides[current].querySelectorAll('video');
+    newVideos.forEach(function(v) {
+      v.currentTime = 0;
+      v.play().catch(function(){});
+    });
+    history.replaceState(null, '', '#' + (current + 1));
+  }
+
+  function next() { showSlide(current + 1); }
+  function prev() { showSlide(current - 1); }
+
+  document.addEventListener('keydown', function(e) {
+    switch(e.key) {
+      case 'ArrowRight': case 'ArrowDown': case 'PageDown': case ' ':
+        e.preventDefault(); next(); break;
+      case 'ArrowLeft': case 'ArrowUp': case 'PageUp':
+        e.preventDefault(); prev(); break;
+      case 'Home': e.preventDefault(); showSlide(0); break;
+      case 'End': e.preventDefault(); showSlide(total - 1); break;
+      case 'f': case 'F':
+        e.preventDefault();
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(function(){});
+        } else {
+          document.exitFullscreen();
+        }
+        break;
+    }
+  });
+
+  // Click navigation: left third = prev, right two-thirds = next
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('video')) return;
+    if (e.clientX < window.innerWidth / 3) prev(); else next();
+  });
+
+  // Scale stage to fit viewport
+  var stage = document.getElementById('stage');
+  function resize() {
+    var sw = window.innerWidth, sh = window.innerHeight;
+    var scale = Math.min(sw / 1920, sh / 1080);
+    stage.style.transform = 'scale(' + scale + ')';
+    stage.style.left = ((sw - 1920 * scale) / 2) + 'px';
+    stage.style.top = ((sh - 1080 * scale) / 2) + 'px';
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Hide cursor after 2s of no movement
+  var cursorTimer;
+  document.addEventListener('mousemove', function() {
+    document.body.style.cursor = '';
+    clearTimeout(cursorTimer);
+    cursorTimer = setTimeout(function() {
+      document.body.style.cursor = 'none';
+    }, 2000);
+  });
+
+  // Start from hash or slide 1
+  var startSlide = 0;
+  if (location.hash) {
+    var n = parseInt(location.hash.substring(1), 10);
+    if (n >= 1 && n <= total) startSlide = n - 1;
+  }
+  showSlide(startSlide);
+})();
+</script>
+</body>
+</html>
